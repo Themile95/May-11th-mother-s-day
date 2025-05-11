@@ -1,0 +1,66 @@
+/* Reset & base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff8f0;
+  color: #333;
+  padding: 1rem;
+}
+
+/* Header */
+header {
+  background-color: rgb(133, 0, 0);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Image section */
+#image-1 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 10px;
+}
+
+/* Main poem section */
+main {
+  text-align: center;
+  padding: 1rem;
+}
+
+#header_1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1rem;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive text */
+@media (max-width: 600px) {
+  #header_1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+    padding: 0.8rem;
+  }
+}
